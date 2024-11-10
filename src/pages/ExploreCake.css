@@ -1,0 +1,95 @@
+.cake-order-container {
+    max-width: 1000px; /* Increase the width of the container */
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    /* background-color:#c4a3a9 ; */
+  }
+  
+  .page-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2em; /* Larger title font */
+  }
+  
+  .cake-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Increase min width of items */
+    gap: 30px; 
+   
+  }
+  
+  .cake-item {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    font-size: 1.1em;
+    background-color: #eee; /* Slightly increase font size */
+  }
+  
+  .cake-item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cake-item h3 {
+    color: #333;
+    font-size: 1.5em; /* Larger heading font */
+    margin-bottom: 10px;
+  }
+  
+  .cake-item p {
+    color: #555;
+    font-size: 1.2em; /* Increase font size for price */
+    margin-bottom: 15px;
+    background-color: #eee;
+  }
+  
+  .cake-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; /* Increase gap between buttons and quantity display */
+  }
+  
+  .quantity-control button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1em; /* Larger button text */
+  }
+  
+  .quantity-control button:hover {
+    background-color: #45a049;
+  }
+  
+  .quantity-control span {
+    font-size: 1.2em; /* Larger quantity text */
+    color: #333;
+    width: 30px; /* Increase width of the quantity display */
+    text-align: center;
+  }
+  .cake-image {
+    width: 100%;        
+    height: 200px;      
+    border-radius: 8px;
+    object-fit: cover;  
+  }
+  .wrap{
+    /* display: flex; */
+    /* justify-content: stretch; */
+    background-color:#c4a3a9 ;
+  }

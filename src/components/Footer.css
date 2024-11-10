@@ -1,0 +1,28 @@
+/* components/Navbar.css */
+.footer {
+    background-color: #3B1C32;
+    padding: 1vw;
+    color: white;       
+    width: 98vw;   
+    height: 12rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.footer-right {
+  
+  display: flex;
+  flex-direction: column-reverse;
+  /* justify-content: space-between; */
+  align-items:end;
+}
+
+  .Author{
+    justify-self: center;
+  }
+  .content{
+    font-size: larger;
+  }
+  .Quote{
+    font-size: xx-large;
+  }

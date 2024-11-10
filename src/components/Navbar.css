@@ -1,0 +1,36 @@
+/* components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3B1C32;
+    padding: 1vw;
+    color: white;    
+    position: fixed;
+    width: 98vw;
+    margin: 0%;
+    top: 0;
+  }
+
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar-links a {
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+  }
+  .navbar-links a:hover{
+    background-color: aquamarine;
+    color: blueviolet;
+    font-size: 18px;
+    
+  }
+  .navbar-logo h1 {
+    margin: 0;
+    font-style: italic;
+  }
+  
